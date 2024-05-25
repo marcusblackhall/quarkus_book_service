@@ -68,6 +68,10 @@
                 <groupId>${quarkus.platform.group-id}</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
                 <version>${quarkus.platform.version}</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
                 <extensions>true</extensions>
                 <executions>
                     <execution>
@@ -83,6 +87,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${compiler-plugin.version}</version>
                 <configuration>
+                    <source>11</source>
+                    <target>11</target>
                     <compilerArgs>
                         <arg>-parameters</arg>
                     </compilerArgs>

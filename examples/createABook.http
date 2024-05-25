@@ -1,0 +1,2 @@
+curl -X POST http://localhost:8702/api/books \
+    -d 'author=marcus&title=Quarkus&genre=boring&year=2024'
