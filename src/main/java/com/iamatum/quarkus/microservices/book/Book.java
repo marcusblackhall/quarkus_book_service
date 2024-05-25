@@ -1,9 +1,9 @@
 package com.iamatum.quarkus.microservices.book;
 
-import jakarta.json.bind.annotation.JsonbDateFormat;
-import jakarta.json.bind.annotation.JsonbProperty;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 
+import javax.json.bind.annotation.JsonbDateFormat;
+import javax.json.bind.annotation.JsonbProperty;
 import java.time.Instant;
 
 @Schema(description = "It is a Book")
